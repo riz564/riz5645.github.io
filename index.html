@@ -1,1 +1,110 @@
-<h1>hello world<h1>
+<!DOCTYPE html>
+<html>
+<title>sweetgoodies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sweetgoodies.css">
+<script src="js_files/jquery.js"></script>
+<script src="js_files/parallax.js"></script>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar white padding card" style="letter-spacing:4px;">
+    <a href="#home" class="bar-item button">al-Farah sweetgoodies</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="right hide-small">
+      <a href="#about" class="bar-item button">About</a>
+      <a href="#menu" class="bar-item button">Menu</a>
+      <a href="#contact" class="bar-item button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="display-container content wide" style="max-width:100%;min-width:200px" id="home">
+
+	<img class="parallax-window" data-parallax="scroll" data-z-index="1" width="100%" height="400px" data-image-src="sweetgoodies_images/pexels-photo-132694.jpeg">
+	<div class="display-bottomleft padding-large opacity">
+    <h1 class="xxlarge">al-Farah sweetgoodies</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="row padding-64" id="about">
+    <div class="col m6 padding-large hide-small">
+     <img src="sweetgoodies_images/minicupcakes.png" class="round image opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="col m6 padding-large">
+      <h1 class="center">About al-Farah</h1><br>
+      <h5 class="center">Homemade goodies</h5>
+      <p class="large">al-Farah was founded in Kanpur by Mrs Shah. All the goodies are home made with good quality products.We sell cakes ,cupcakes, choclates on order.We also offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="row padding-64" id="menu">
+    <div class="col l6 padding-large">
+      <h1 class="center">Our Menu</h1><br>
+      <a href="menu.html" class="bar-item button"><h4>Cakes and Pastries</h4></a>
+      <p class="text-grey">Fresh baked Cakes</p><br>
+    
+      <a href="menu.html" class="bar-item button"><h4>Cupcakes</h4></a>
+      <p class="text-grey">tasty and beautiful cupcakes</p><br>
+    
+      <a href="menu.html" class="bar-item button"><h4>Cookies</h4></a>
+      <p class="text-grey">Handmade cookies straight from the oven</p><br>
+    
+      <a href="menu.html" class="bar-item button"><h4>Sweets and Confectinaries</h4></a>
+      <p class="text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <a href="menu.html" class="bar-item button"><h4>Pancakes</h4></a>
+      <p class="text-grey">With syrup, butter and lots of giidies</p>    
+    </div>
+    
+    <div class="col l6 padding-large">
+      <img src="sweetgoodies_images/menu.jpg" class="round image opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="container padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>.</p>
+    <p class="text-blue-grey large"><b>Modern Tannery, Tadbagia, Kanpur, 2000068</b></p>
+    <p>You can also contact us by phone 08604730507 or email al-Farah@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="input padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="input padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="button light-grey section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="center light-grey padding-32">
+  <p>Powered by al-Farah sweetgoodies</p>
+</footer>
+
+</body>
+</html>
